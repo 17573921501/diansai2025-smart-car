@@ -1,0 +1,40 @@
+# ================= Keil MDK 构建产物 =================
+project/keil/Listings/
+project/keil/Objects/
+
+# Keil 用户界面/调试器状态文件（与个人环境相关，不进仓库）
+*.uvoptx
+*.uvguix.*
+JLinkSettings.ini
+Auto_FcArm_Cmd.inp
+
+# 编译中间文件
+*.o
+*.d
+*.crf
+*.dep
+*.bak
+*.axf
+*.map
+*.htm
+*.lnp
+*.hex
+*.bin
+*.iex
+*.srec
+*.lst
+*.build_log.htm
+*.scvd
+*.dbgconf
+*.feedbacks
+*.cspy*
+*.ewd
+*.ewt
+
+# 系统/编辑器杂项
+Thumbs.db
+.DS_Store
+desktop.ini
+.vscode/
+__pycache__/
+*.pyc
